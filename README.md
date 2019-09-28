@@ -1,0 +1,1 @@
+dotnet-core-template-repository
