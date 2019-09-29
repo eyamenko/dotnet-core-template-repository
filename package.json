@@ -1,0 +1,9 @@
+{
+  "name": "dotnet-core-template-repository",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "husky": "^3.0.7",
+    "lint-staged": "^9.4.0"
+  }
+}
