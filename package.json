@@ -5,5 +5,10 @@
   "devDependencies": {
     "husky": "^3.0.7",
     "lint-staged": "^9.4.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged -r"
+    }
   }
 }
