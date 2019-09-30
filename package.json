@@ -12,6 +12,6 @@
     }
   },
   "scripts": {
-    "install": "dotnet tool restore"
+    "preinstall": "dotnet tool restore"
   }
 }
