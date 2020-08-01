@@ -4,12 +4,17 @@
   "private": true,
   "devDependencies": {
     "husky": "^4.2.5",
-    "lint-staged": "^10.2.2"
+    "lint-staged": "^10.2.11"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged -r"
+      "pre-commit": "lint-staged"
     }
+  },
+  "lint-staged": {
+    "*.cs": [
+      "dotnet dotnet-format --include"
+    ]
   },
   "scripts": {
     "preinstall": "dotnet tool restore"
